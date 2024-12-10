@@ -1,0 +1,9 @@
+package com.nimapinfotech.machinetest.service;
+
+public class CategoryService {
+
+	public CategoryService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

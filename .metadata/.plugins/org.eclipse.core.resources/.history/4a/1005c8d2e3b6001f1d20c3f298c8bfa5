@@ -1,0 +1,41 @@
+package com.nimapinfotech.machinetest.serviceimpl;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+import com.nimapinfotech.machinetest.pojo.Product;
+import com.nimapinfotech.machinetest.service.ProductService;
+
+@Service
+public class ProductServiceImpl implements ProductService {
+
+	@Override
+	public Page<Product> getAllProducts(Pageable pageable) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getProductById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product createProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product updateProduct(int id, Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteProduct(int id) {
+		// TODO Auto-generated method stub
+
+	}
+}

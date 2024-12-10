@@ -1,0 +1,45 @@
+package com.nimapinfotech.machinetest.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+import com.nimapinfotech.machinetest.pojo.Category;
+import com.nimapinfotech.machinetest.repository.CategoryRepository;
+import com.nimapinfotech.machinetest.service.CategoryService;
+
+@Service
+public class CategoryServiceImpl implements CategoryService {
+
+	@Autowired
+	private CategoryRepository categoryRepository;
+	
+	@Override
+	public Page<Category> getAllCategories(Pageable pageable) {
+		return null;
+	}
+
+	@Override
+	public Category getCategoryById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Category createCategory(Category category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Category updateCategory(int id, Category category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteCategory(int id) {
+		// TODO Auto-generated method stub
+
+	}
+}

@@ -1,0 +1,5 @@
+package com.nimapinfotech.machinetest.controller;
+
+public class ProductController {
+
+}

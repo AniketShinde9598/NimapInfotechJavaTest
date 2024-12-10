@@ -1,0 +1,6 @@
+package com.nimapinfotech.machinetest.repository;
+
+public interface CategoryRepository {
+
+	
+}
